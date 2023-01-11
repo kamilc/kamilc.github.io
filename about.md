@@ -4,16 +4,10 @@ title: "About"
 permalink: /about/
 ---
 
-<div class="grid place-content-center mb-[30px]">
-  <div class="rounded-full overflow-clip w-[150px]">
-    {% avatar kamilc size=150 %}
-  </div>
-</div>
-
 Hey there!
 
 
-I'm a data scientist with over 16 years of experience under my belt. I've got a strong background in software engineering and I've delivered some great work over the years - on time and to a high standard. I've worked on a variety of ML projects, from researching papers to implementing solutions and making sure they're robust enough to be used in the real world. I've also worked on tools for making models more explainable and fair.
+I'm a senior data scientist with over 16 years of experience under my belt. I've got a strong background in software engineering and I've delivered some great work over the years - on time and to a high standard. I've worked on a variety of ML projects, from researching papers to implementing solutions and making sure they're robust enough to be used in the real world. I've also worked on tools for making models more explainable and fair.
 
 
 I've had the opportunity to work with over 30 clients, on a whole range of different projects. I've tackled machine learning, data engineering, web development, and more. I've led teams and contributed back to open source projects, with some of my own libraries hosted on GitHub.

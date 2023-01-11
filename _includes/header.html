@@ -2,9 +2,21 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div class="site-title flex flex-row">
+    <div class="grid place-content-center p-2">
+      <div class="rounded-full overflow-clip w-[70px]">
+        <img class="avatar" alt="kamilc" width="70" height="70" data-proofer-ignore="true" src="https://avatars0.githubusercontent.com/kamilc?v=3&amp;s=70" srcset="https://avatars0.githubusercontent.com/kamilc?v=3&amp;s=70 1x, https://avatars0.githubusercontent.com/kamilc?v=3&amp;s=140 2x, https://avatars0.githubusercontent.com/kamilc?v=3&amp;s=210 3x, https://avatars0.githubusercontent.com/kamilc?v=3&amp;s=280 4x">
+      </div>
+    </div>
 
-    <nav class="site-nav">
+      <div class="mt-[6px]">
+        <a class="text-gray-700 visited:text-gray-700 pt-4" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+        <span class="text-sm block -mt-[12px]">by Kamil Ciemniewski</span>
+      </div>
+    </div>
+
+    <nav class="site-nav pt-[6px] pr-4">
       {% for link in site.data.navigation.main %}
         {% if link.url contains "http" %}
           {% assign url = link.url %}
